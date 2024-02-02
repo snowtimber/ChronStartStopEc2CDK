@@ -3,11 +3,11 @@ import os
 
 import aws_cdk as cdk
 
-from chron_start_stop_ec2.chron_start_stop_ec2_stack import ChronStartStopEc2Stack
+from chron_start_stop_ec2_cdk.chron_start_stop_ec2_cdk_stack import ChronStartStopEc2CdkStack
 
 
 app = cdk.App()
-ChronStartStopEc2Stack(app, "ChronStartStopEc2Stack",
+ChronStartStopEc2CdkStack(app, "ChronStartStopEc2CdkStack",
     # If you don't specify 'env', this stack will be environment-agnostic.
     # Account/Region-dependent features and context lookups will not work,
     # but a single synthesized template can be deployed anywhere.

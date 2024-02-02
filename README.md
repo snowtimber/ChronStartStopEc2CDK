@@ -1,13 +1,15 @@
 # First, ensure you have set the INSTANCE_ID environment variable in your terminal or execution environment:
 
-...
+'''
 $ export INSTANCE_ID='your-instance-id-here'
-...
+'''
 
 ## Then deploy stack
-...
-cdk deploy
-...
+'''
+$ cdk deploy
+'''
+
+---
 
 # Welcome to your CDK Python project!
 
